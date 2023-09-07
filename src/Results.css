@@ -22,7 +22,7 @@
 
 @media (max-width: 500px) {
     .Results section {
-        box-shadow: -7px 7px rgb(187, 230, 124);
+        box-shadow: -7px 7px #70b542;
     }
 
     .Results .partSpeech {
