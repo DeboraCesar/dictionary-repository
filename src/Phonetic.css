@@ -6,8 +6,8 @@
     color: white;
     padding: 7px;
     margin: 8px;
-    background-color: rgb(76, 97, 212);
-    border: 2px solid rgb(76, 97, 212);
+    background-color: #6a7eee;
+    border: 2px solid #6a7eee;
 
     border-radius: 50%;
     transition: all 120ms ease-in;
@@ -15,8 +15,8 @@
 
 .Phonetic a:hover {
     color: white;
-    background-color: #11a263;
-    border: 1px solid #11a263;
+    background-color: #61d4a2;
+    border: 1px solid #61d4a2;
     border-radius: 50%;
 }
 
