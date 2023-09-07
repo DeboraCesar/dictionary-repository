@@ -1,0 +1,31 @@
+.Results section {
+    display: block;
+    margin: 30px auto;
+    padding: 15px;
+    max-width: 1100px;
+    width: 90%;
+    background-color: #ffffff;
+    border-radius: 15px;
+    border: 2px solid #000000;
+    box-shadow: -12px 13px rgba(187, 230, 124);
+}
+
+.Results h2 {
+    font-size: 34px;
+    font-weight: bold;
+    line-height: 1.8;
+}
+
+.Results .partSpeech {
+    box-shadow: -12px 13px rgb(237, 108, 149);
+}
+
+@media (max-width: 500px) {
+    .Results section {
+        box-shadow: -7px 7px rgb(187, 230, 124);
+    }
+
+    .Results .partSpeech {
+        box-shadow: -7px 7px rgb(239, 147, 176);
+    }
+}

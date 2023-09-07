@@ -1,0 +1,17 @@
+.Example {
+    margin: 15px;
+}
+
+.Example p {
+    margin-bottom: 10px;
+}
+
+.Example strong {
+    color: #755334;
+    font-size: 20px;
+}
+
+.Example em {
+    opacity: 0.8;
+    font-size: 18px;
+}
