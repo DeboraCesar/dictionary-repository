@@ -6,26 +6,10 @@ import Dictionary from "./Dictionary";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <a
-          href="https://main--spectacular-kleicha-8e0454.netlify.app/"
-          target="_blank"
-          rel="noreferrer"
-          title="Portfolio"
-        >
-          <img
-            src={logo}
-            className="logo-debora img-fluid"
-            alt="Logo Debora Cesar"
-          />
-        </a>
-      </header>
-      <div
-        className="Dictionary-body"
-        style={{ backgroundImage: `url(${background})` }}
-      >
+      <h1>Dictionary</h1>
+      <div className="Dictionary-body">
         <main>
-          <Dictionary />
+          <Dictionary defaultKeyword="office" />
         </main>
         <footer>
           <p>

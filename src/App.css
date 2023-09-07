@@ -1,17 +1,28 @@
+/*
+font-family: 'Abril Fatface', cursive;
+font-family: 'Domine', serif;
+font-family: 'Libre Baskerville', serif;
+font-family: 'Lora', serif;
+*/
 .App {
   text-align: center;
-  background-color: #282c34;
+  background-color: #eedeab;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   color: white;
+  font-family: "Libre Baskerville", serif;
 }
 
-.App .App-header {
-  background-color: #74644d;
-  width: 100%;
+.App h1 {
+  font-size: 50px;
+  color: #000000;
+  font-family: "Domine", serif;
+  font-weight: 700;
+  margin-top: 40px;
+  margin-bottom: 18px;
 }
 
 .App .Dictionary-body {
@@ -24,16 +35,27 @@
   flex-direction: column;
   align-items: center;
   justify-content: center; */
-  color: #344e41;
+  color: #000000;
   font-size: 20px;
-}
-
-.App .logo-mariana {
-  max-width: 180px;
-  display: block;
-  margin: 15px auto;
 }
 
 footer {
   font-size: 18px;
+}
+
+footer a {
+  color: #606dea;
+  text-decoration: none;
+  transition: all 120ms ease-in-out;
+}
+
+footer a:hover {
+  color: #12c4c7;
+  text-decoration: none;
+}
+
+@media (max-width: 700px) {
+  footer {
+    margin: 10px 20px;
+  }
 }
