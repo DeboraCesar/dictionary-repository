@@ -1,5 +1,3 @@
-import logo from "./name.png";
-import background from "./background.webp";
 import "./App.css";
 import Dictionary from "./Dictionary";
 
